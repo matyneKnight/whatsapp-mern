@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-mern-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules server.js",
+    "debug": "nodemon --experimental-modules --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyneKnight/whatsapp-mern-backend.git"
+  },
+  "author": "Abdel Matyne LAWANI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyneKnight/whatsapp-mern-backend/issues"
+  },
+  "homepage": "https://github.com/matyneKnight/whatsapp-mern-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "pusher": "^3.0.1"
+  }
+}
